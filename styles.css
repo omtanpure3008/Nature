@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.upper-div {
+    height: 40%;
+    width: 100%;
+    background-color: green;
+    padding: 2vw 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(123.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.navigation {
+    height: 100px;
+    width: 80%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.left-nav {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.left-nav a {
+    margin: 0 3vw;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1vw;
+}
+
+.right-nav {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right-nav i {
+    margin: 0 .8vw;
+    font-size: 1.9vw;
+    color: #fff;
+}
+
+.about {
+    /* background-color: crimson; */
+    height: calc(100% - 100px);
+    width: 80%;
+    margin: 1vw 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about h1 {
+    color: #fff;
+    font-size: 5vw;
+}
+
+.about p {
+    color: #fff;
+    font-size: .9vw;
+}
+
+.lower-div {
+    height: 60%;
+    width: 80%;
+    /* background-color: yellow; */
+    display: flex;
+}
+
+.left-lower {
+    height: 100%;
+    width: 50%;
+    /* background-color: crimson; */
+    padding: 2vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left-lower h2 {
+    font-size: 2.5vw;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.left-lower p {
+    font-size: .9vw;
+    margin: .5vw 0;
+}
+
+.right-lower {
+    height: 100%;
+    width: 50%;
+    /* background-color: blueviolet; */
+    padding: 5vw 13vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.right-lower img:nth-child(1) {
+    position: absolute;
+    z-index: -1;
+}
